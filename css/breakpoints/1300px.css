@@ -1,0 +1,5 @@
+@media (max-width: 1300px) {
+    .conteudo > div img{
+        height: 12rem;
+    }
+}

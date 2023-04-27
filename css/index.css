@@ -2,3 +2,6 @@
 @import url('./cabecalho.css');
 @import url('./conteudo.css');
 @import url('./rodape.css');
+@import url('./breakpoints/1300px.css');
+
+@import url('./breakpoints/768px.css');

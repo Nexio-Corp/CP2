@@ -1,0 +1,28 @@
+@media (max-width: 768px) {
+    .conteudo {
+        flex-direction: column;
+    }
+    .conteudo > div {
+        width: 100%;
+    }
+    .conteudo > div img {
+        height: 15rem;
+    }
+    .cabecalho {
+        align-items: center;
+    }
+    .cabecalho img {
+        width: 50%;
+    }
+    .cabecalho > nav {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .rodape {
+        text-align: center;
+    }
+    .rodape > nav img {
+        float: none;
+    }
+}
