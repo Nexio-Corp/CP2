@@ -13,3 +13,11 @@
     width: auto;
     float: right;
 }
+@media (max-width: 768px) {
+    .rodape{
+        text-align: center;
+    }
+    .rodape > nav img{
+        float: none;
+    }
+}
