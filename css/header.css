@@ -1,28 +1,28 @@
-header{
+.cabecalho{
     display: flex;
     justify-content: space-between;
     height: 15%;
     width: 95%;
     margin: 0 auto;
 }
-header img{
+.cabecalho img{
     width: 20%;
     height: fit-content;
 }
-header > nav{
+.cabecalho > nav{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
 }
-header > nav a{
+.cabecalho > nav a{
     font-size: 2rem;
     font-weight: 700;
     text-decoration: none;
     color: #000;
     transition: all .3s ease-in-out;
 }
-header > nav a:hover{
+.cabecalho > nav a:hover{
     color: rgb(0, 132, 255);
 }
