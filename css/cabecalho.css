@@ -26,6 +26,11 @@
 .cabecalho > nav a:hover{
     color: var(--azul-link);
 }
+@media (max-width: 1200px) {
+    .cabecalho img{
+        width: 30%;
+    }
+}
 @media (max-width: 768px) {
     .cabecalho{
         align-items: center;
@@ -39,4 +44,3 @@
         width: 100%;
     }
 }
-    
