@@ -44,3 +44,9 @@
         width: 100%;
     }
 }
+@media (max-width: 630px) {
+    .cabecalho > nav{
+        flex-direction: column;
+        align-items: center;
+    }
+}
