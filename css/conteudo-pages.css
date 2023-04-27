@@ -1,0 +1,37 @@
+.conteudo{
+    margin-top: 2rem;
+    background-color: var(--background-conteudo);
+    padding: 2rem;
+    border: .3rem solid #000;
+}
+.conteudo > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conteudo > div figure{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo > div figure > figcaption{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+}
+.conteudo > div img{
+    width: 50%;
+    margin: 0 auto;
+    height: fit-content;
+}
+.conteudo > div h1{
+    font-size: 4rem;
+    text-align: center;
+}
+.conteudo > div p{
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem 0;
+}
