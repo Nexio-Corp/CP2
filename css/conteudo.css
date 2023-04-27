@@ -1,0 +1,27 @@
+section {
+    display: flex;
+    justify-content: space-around;
+}
+section > div{
+    width: 30%;
+    border: .3rem solid #000;
+    border-radius: 1rem;
+}
+
+section > div figure{
+    width: 100%;
+    text-align: center;
+
+}
+section > div img{
+    height: 20rem;
+    width: auto;
+}
+section > div h2{
+    text-align: center;
+    font-size: 3rem;
+}
+section > div figcaption{
+    text-align: center;
+    font-size: 1.5rem;
+}
