@@ -1,9 +1,9 @@
-section {
+.conteudo {
     margin-top: 2rem;
     display: flex;
     justify-content: space-around;
 }
-section > div {
+.conteudo > div {
     width: 30%;
     background-color: #d3d3d3;
     border: 0.3rem solid #000;
@@ -11,20 +11,20 @@ section > div {
     border-radius: 1rem;
 }
 
-section > div figure {
+.conteudo > div figure {
     width: 100%;
     padding: 1rem;
     text-align: center;
 }
-section > div img {
+.conteudo > div img {
     height: 20rem;
     width: auto;
 }
-section > div h2 {
+.conteudo > div h2 {
     text-align: center;
     font-size: 3rem;
 }
-section > div figcaption {
+.conteudo > div figcaption {
     text-align: center;
     font-size: 1.6rem;
 }
