@@ -4,7 +4,7 @@
 }
 .conteudo > div {
     width: 30%;
-    background-color: #d3d3d3;
+    background-color: var(--background-conteudo);
     border: 0.3rem solid #000;
     box-shadow: 1rem 1rem 0.5rem 0 rgba(0, 0, 0, 0.75);
     border-radius: 1rem;
