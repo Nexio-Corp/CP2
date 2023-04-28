@@ -2,12 +2,3 @@
 @import url('./cabecalho.css');
 @import url('./rodape.css');
 @import url('./conteudo-pages.css');
-body {
-    overflow-x: hidden;
-    padding-right: 1.7rem;
-}
-@media (pointer: coarse) {
-    body {
-        padding-right: 0rem;
-    }
-}
