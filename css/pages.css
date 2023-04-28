@@ -5,9 +5,17 @@
 body {
     overflow-x: hidden;
     padding-right: 1.7rem;
+    /* Dando espaço pra barra de scroll */
+}
+@media (min-height: 1170px) {
+    body {
+        padding-right: 0rem;
+    }
+    /* Tirando o espaço se o dispositivo não */
 }
 @media (pointer: coarse) {
     body {
         padding-right: 0rem;
     }
+    /* Caso seja um dispositivo touch não tem scroll */
 }
