@@ -8,11 +8,11 @@
     border: 0.3rem solid #000;
     box-shadow: 1rem 1rem 0.5rem 0 rgba(155, 155, 155, 0.75);
     border-radius: 1rem;
+    transition: 0.2s ease-in-out;
 }
 
-.conteudo > div:hover{
+.conteudo > div:hover {
     box-shadow: 1rem 1rem 0.5rem 0 rgba(0, 0, 0, 0.75);
-    transition: 0.2s;
 }
 
 .conteudo > div figure {
@@ -42,7 +42,6 @@
     .conteudo > div img {
         height: 15rem;
     }
-    
 }
 @media (max-width: 1300px) {
     .conteudo > div img {
